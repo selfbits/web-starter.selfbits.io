@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+// Clarity styles
+@import 'overwrites.clarity.scss';
+@import '../node_modules/clarity-ui/src/main';
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%
+}
+
+.app-loading-wrapper {
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+	display: flex;
+}
+
+.app-loading-img {
+	background: url('assets/selfbits_starter.png') center center no-repeat;
+	background-size: contain;
+	height: 100%;
+	width: 50%;
+}
+
+.my-content-area {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 auto;
+}
